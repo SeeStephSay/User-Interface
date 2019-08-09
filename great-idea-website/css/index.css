@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, button {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -70,16 +70,90 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
+/* TOP STYLES */
+hr {
+	margin: 50px 0;
+}
+
 header nav {
 	display: inline-block;
 	margin-top: 35px;
 }
 
-header nav a {
+nav a {
+	color: grey;
 	/*TB LR*/
 	margin: 0 20px;
+	padding: 0 10px;
+	text-decoration: none;
 }
 
-header img.logo {
-	margin-left: 140px; 
+.logo {
+	margin-bottom: -15px;
+	margin-left: 15px;
+}
+
+header .title {
+	display: inline-block;
+}
+
+.header-img {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 70px;
+}
+
+.title h1 {
+	font-size: 88px;
+	text-align: center;
+}
+
+.title button {
+	background-color: white;
+	border: 1px solid black;
+	margin: 0 100px 0 100px;
+	padding: 5px;
+	width: 225px; 
+	font-size: 20px;
+	text-align: center;
+}
+
+/* MAIN STYLES */
+.text-content {
+	width: 47%;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-top: -15px;
+}
+
+#text-content-margin {
+	margin-left: 30px;
+}
+
+/* BOTTOM STYLES */
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 31%;
+	margin-top: 35px;
+}
+
+.services, .product {
+	margin-right: 20px;
+}
+address h4 {
+	margin-top: -15px;
+}
+
+address #street-address {
+	margin-bottom: 15px;
+}
+
+address #phone-num {
+	margin-bottom: 15px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
 }
